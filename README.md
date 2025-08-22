@@ -12,6 +12,8 @@ This assignment introduces you to **web APIs** and **data collection** for compu
 
 ---
 
+**Note:** Examples of API analyses can be found in the example_analyses folder.
+
 ## API Scenarios (Choose ONE)
 
 Pick **one** scenario below and complete all requirements:
@@ -20,7 +22,7 @@ Pick **one** scenario below and complete all requirements:
 **Research Question:** How does news coverage of climate change vary across different sources?
 
 **Your Task:**
-- Use the [NewsAPI](https://newsapi.org/) to collect articles about "climate change" 
+- Use the [NewsAPI](https://newsapi.org/) to collect articles about a topic you are interested in
 - Fetch articles from at least 3 different news sources
 - Compare headline sentiment, article length, and publication frequency
 - Analyze patterns: Which sources cover climate change most/least? What are common themes?
@@ -29,8 +31,8 @@ Pick **one** scenario below and complete all requirements:
 **Research Question:** What are the trending topics in computational social science research?
 
 **Your Task:**
-- Use the [Semantic Scholar API](https://www.semanticscholar.org/product/api) to search for papers
-- Collect papers with keywords like "computational social science", "digital humanities", "social media analysis"
+- Use the [OpenAlex](https://openalex.org/) API to search for papers
+- Collect papers with keywords for a topic you are interested in
 - Extract titles, authors, publication years, and citation counts
 - Analyze trends: Which topics are growing? Who are the most cited authors?
 
@@ -51,6 +53,13 @@ Pick **one** scenario below and complete all requirements:
 - Search for the same keyword (e.g., "artificial intelligence") in 3+ different subreddits
 - Compare post titles, scores, comment counts, and discussion tone
 - Analyze differences: How do tech vs. general vs. academic communities discuss AI?
+
+### Option 5: Choose Your Own API!
+**Research Question:** Formulate a research question related to your group project and find a relevant API.
+
+**Your Task:**
+- Retrieve at least 1000 entries
+- Engage in exploratory analysis of the data
 
 ---
 
